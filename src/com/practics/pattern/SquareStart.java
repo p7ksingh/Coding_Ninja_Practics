@@ -1,6 +1,12 @@
 package com.practics.pattern;
 
 public class SquareStart {
+	
+//	* * * * 
+//	* * * * 
+//	* * * * 
+//	* * * * 
+//	* * * * 
 
 	public static void main(String[] args) {
 		int n=4;
