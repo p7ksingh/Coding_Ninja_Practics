@@ -1,5 +1,5 @@
 package com.practics.array;
-// O/P: 1 2 3 4 5 6 
+// O/P-> 1 2 3 4 5 6 
 public class SelectionShort {
 
 	public static void main(String[] args) {
