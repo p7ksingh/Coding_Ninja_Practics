@@ -1,0 +1,48 @@
+Top 40 DSA Interview Questions
+
+Arrays and Strings
+Maximum Sum Subarray: Utilize Kadane’s algorithm to find the contiguous subarray with the largest sum.
+Palindrome Substrings: Identify all substrings of a string that are palindromes.
+Two Sum Problem: Find two numbers that add up to a specific target.
+Kadane’s Algorithm: Solve the maximum subarray problem efficiently.
+Missing Number: Find the missing integer in a sequence.
+Merge Sorted Arrays: Efficiently merge two sorted arrays into a single sorted array.
+String Palindrome Check: Determine if a given string is a palindrome.
+First Non-Repeating Character: Find the first character in a string that doesn’t repeat.
+Remove Duplicates: Eliminate duplicates from a sorted array.
+Linked Lists
+Reverse a Linked List: Reverse a singly linked list.
+Detect Cycle: Detect if there’s a cycle in a linked list.
+Middle of Linked List: Find the middle element of a linked list.
+Merge Sorted Linked Lists: Merge two sorted linked lists into one.
+Stack Using Linked List: Implement a stack with linked list operations.
+Intersection Point: Find the intersection node of two linked lists.
+Stacks and Queues
+Stack Using Array: Implement basic stack operations using arrays.
+Min Stack: Design a stack that retrieves the minimum element efficiently.
+Circular Queue: Create a queue that follows a circular buffer mechanism.
+Max Stack: Implement a stack that supports retrieving the maximum element.
+Queue Using Stacks: Construct a queue using two stacks.
+Trees and Binary Search Trees
+Height of Binary Tree: Compute the height of a binary tree.
+Lowest Common Ancestor (LCA): Find the LCA of two nodes in a binary tree.
+Validate BST: Determine if a tree is a valid Binary Search Tree.
+Serialize/Deserialize Tree: Convert a tree to a string and back.
+Inorder Traversal: Perform inorder traversal (left, root, right).
+Diameter of Binary Tree: Calculate the longest path between two nodes.
+Mirror Binary Tree: Convert a binary tree into its mirror image.
+Graphs
+Depth-First Search (DFS): Implement DFS algorithm for traversal.
+Breadth-First Search (BFS): Implement BFS algorithm for graph traversal.
+Shortest Path: Find the shortest path between two nodes in an unweighted graph.
+Cycle Detection: Use DFS to detect cycles in an undirected graph.
+Bipartite Check: Verify if a graph can be divided into two disjoint sets.
+Connected Components: Count the number of connected components.
+Find Bridges: Identify critical connections in a graph.
+Sorting and Searching
+Basic Sort Algorithms: Implement bubble, insertion, selection, and merge sort.
+Quicksort: Efficient sorting algorithm.
+Binary Search: Quickly find an element in a sorted array.
+Interpolation Search: Improved searching method for uniformly distributed data.
+Kth Smallest Element: Locate the kth smallest element in an array.
+Count Inversions: Count inversions indicating how far the array is from being sorted.
