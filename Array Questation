@@ -1,0 +1,191 @@
+1. Basic but Tricky Array Questions
+1. Find the maximum element in an array
+Traverse once and keep updating max; O(n).
+
+2. Find the minimum element in an array
+Maintain running minimum; single pass.
+
+3. Reverse an array
+Use two pointers swapping from ends; O(n), in-place.
+
+4. Check if array is sorted
+Compare adjacent elements; break if order violated.
+
+5. Find sum of all elements
+Loop or stream sum; O(n).
+
+2. Rotation & Position-Based Problems
+6. Rotate array by K positions (right)
+Reverse whole array, then parts; O(n), O(1) space.
+
+7. Rotate array by K positions (left)
+Reverse segments then whole array; O(n).
+
+8. Find element at Kth position after rotations
+Use (index + k) % n; avoid actual rotation.
+
+9. Move all zeros to the end
+Two-pointer compaction; maintain order.
+
+10. Move all negative numbers to one side
+Partition like quicksort; O(n).
+
+3. Searching & Index-Based Questions
+11. Find index of a given element
+Linear or binary search if sorted.
+
+12. Binary search implementation
+Divide search space; O(log n).
+
+13. Find first and last occurrence
+Modified binary search for boundaries.
+
+14. Find peak element
+Binary search on slope; O(log n).
+
+15. Find pivot in rotated sorted array
+Detect inflection via binary search.
+
+4. Duplicate & Missing Number Problems
+16. Find duplicate element
+HashSet or Floyd’s cycle detection.
+
+17. Find missing number (1 to N)
+Sum formula or XOR trick.
+
+18. Find all duplicates
+Use frequency map or index marking.
+
+19. Find first repeating element
+Track using set; return earliest repeat.
+
+20. Find missing and repeating number
+Math equations or XOR approach.
+
+5. Subarray Problems (Very Important)
+21. Maximum subarray sum (Kadane’s)
+Track running sum; reset on negative.
+
+22. Find subarray with given sum
+Sliding window (positive) or hashmap.
+
+23. Count subarrays with sum K
+Prefix sum + hashmap.
+
+24. Longest subarray with sum K
+Store first occurrence of prefix sum.
+
+25. Maximum product subarray
+Track max and min due to negatives.
+
+6. Two Pointer & Sliding Window Problems
+26. Two sum problem
+Hashmap for complement lookup.
+
+27. Three sum problem
+Sort + two pointers; O(n²).
+
+28. Container with most water
+Move smaller height pointer inward.
+
+29. Longest substring without repeating
+Sliding window + set/map.
+
+30. Minimum window substring
+Expand/shrink window using frequency map.
+
+7. Sorting-Based Questions
+31. Sort 0s, 1s, 2s
+Dutch National Flag algorithm.
+
+32. Merge two sorted arrays
+Two pointers or extra buffer.
+
+33. Find kth smallest element
+Heap or quickselect.
+
+34. Check if two arrays are equal
+Sort or hashmap frequency.
+
+35. Rearrange array alternately
+Max-min pattern using extra space.
+
+8. Advanced Pattern-Based Problems
+36. Trapping rain water
+Two pointers or prefix arrays.
+
+37. Stock buy and sell
+Track min price and max profit.
+
+38. Find leaders in array
+Traverse from right, track max.
+
+39. Product of array except self
+Prefix + suffix product arrays.
+
+40. Majority element
+Boyer-Moore voting algorithm.
+
+9. Matrix (2D Array) Problems
+41. Rotate matrix by 90 degrees
+Transpose + reverse rows.
+
+42. Spiral traversal
+Layer-by-layer boundary traversal.
+
+43. Search in sorted matrix
+Start top-right; eliminate row/col.
+
+44. Set matrix zeros
+Use first row/column as markers.
+
+45. Count islands
+DFS/BFS traversal on grid.
+
+10. Hard & Interview Favorite Problems
+46. Median of two sorted arrays
+Binary search partition.
+
+47. Sliding window maximum
+Deque for O(n) solution.
+
+48. Longest consecutive sequence
+HashSet for O(n).
+
+49. Maximum XOR pair
+Trie or bit manipulation.
+
+50. Subarray with equal 0s and 1s
+Convert 0 → -1 and use prefix sum.
+
+11. Scenario-Based & Story Problems (Most Important for Senior Interviews)
+51. You are building a logging system — find peak traffic window
+Convert timestamps to array and use sliding window max.
+
+52. E-commerce: find top K selling products
+Use hashmap + heap for frequency tracking.
+
+53. Payment system: detect duplicate transactions within 5 mins
+Sort by time and use sliding window comparison.
+
+54. Social media feed: show most recent unique posts
+Use HashSet + reverse traversal.
+
+55. Analytics: find longest stable metric period
+Convert to longest subarray with condition.
+
+56. Ride-sharing: maximize rides without overlap
+Sort intervals and apply greedy selection.
+
+57. Stock system: best time to buy/sell multiple times
+Track increasing sequences (greedy).
+
+58. Fraud detection: find unusual spikes
+Use prefix sum or sliding window anomaly detection.
+
+59. Gaming leaderboard: maintain top N players
+Use min-heap of size N.
+
+60. Notification system: batch events in fixed window
+Group events using windowing technique.
+
